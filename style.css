@@ -5,6 +5,13 @@
 
     
 }
+body{
+  background:linear-gradient(TO bottom, #7ee0f1 0%,hsl(194, 83%, 23%) 100% ) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100VH;
+}
 
 .container{
   background:linear-gradient(to bottom, #7ee0f1 0%, hsl(194, 83%, 23%) 100%) ;
@@ -59,7 +66,7 @@ display: flex;
 
 }
 .p1{
-    background-color: #f5e9e9;
+    background-color: #f8f4f4;
     width: 30px;
     height: 30px;
     margin-top: 25px;
@@ -76,9 +83,9 @@ display: flex;
     
 }
 .adress-p{
-    color: #ffffff;
+    color: #fcfafa;
     text-transform:capitalize ;
-    font-size: 18px;
+    font-size: 15px;
     margin-top: -27px;
     margin-left: 45px;
     text-indent: 5px;
